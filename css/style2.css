@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: coral;
+}
+
+
+
+
+h3 {
+    color: coral;
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+
+
+
+.bg-violet {
+    background-color: rgba(238, 188, 247, 1.0);
+}
+
+.btn {
+    background-color: deeppink;
+    color: white;
+}
+
+.articulo p {
+    color: rgb(60, 46, 212);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+
+}
+
+.row p {
+    background-color: rgb(255, 217, 217);
+    color: rgba(0, 0, 0, 0.62);
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+
+
+#botonera img {
+    width: 10rem;
+}
+
+/******Carousel*******/
+
+
+
+
+/******PIE FOOTER******/
+#pie {
+    background-color: blueviolet;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 5rem;
+}
+
+
+/******* PROMOCIONES**********/
+
+
+
+
+.container-padre {
+    display: flex;
+    width: 100%;
+    justify-content: row;
+    padding: 5px;
+}
+
+.container-padre img {
+    width: 90%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 6px;
+    background-color: blueviolet;
+}
+
+.articulo p {
+    margin: 30px;
+
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******** IMAGENES ******/
