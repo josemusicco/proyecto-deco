@@ -1,0 +1,19 @@
+@import "_listas.scss";
+
+h1 {
+    text-align: center;
+    padding: nth($encabezados, 3);
+    font-size: nth($encabezados, 3);
+    color: nth($colors, 4);
+}
+
+.row p {
+    background-color: nth($colors, 2);
+    color: nth($colors, 9);
+    font-size:nth($encabezados, 3);
+    line-height: 2.5rem;
+}
+
+h2 {
+    color:nth($colors, 5);
+}

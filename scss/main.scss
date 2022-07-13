@@ -1,0 +1,71 @@
+//imports
+@import "_productos";
+@import "_comercio";
+@import "_nav";
+@import "_promociones";
+@import "_footer";
+@import "_listas";
+@import "_extends";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 700px) {
+    .section-promociones {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+        grid-gap: 5px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-promociones {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        grid-gap: 5px;
+    }
+
+    .section-promociones img {
+        width: 80%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 20px;
+
+    }
+
+    .card-promociones p {
+        background-color: rgba(207, 42, 86, 0.344);
+        font-size: 1rem;
+        justify-content: center;
+        height: auto;
+        width: 90%;
+    }
+
+    .card-promociones h3 {
+        color: darkblue;
+        width: 70%;
+        height: auto;
+    }
+
+    .card-promociones {
+        margin: 1em auto;
+
+    }
+
+    .botonera {
+        width: 100%;
+    }
+}
+
+.video {
+    height: 800px;
+
+}

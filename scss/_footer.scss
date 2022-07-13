@@ -1,0 +1,16 @@
+@import "_listas.scss";
+@import "_extends.scss";
+
+#pie {
+    margin-top: nth($encabezados, 7);
+    background-color: nth($colors, 6 );
+    width: 300;
+    height: 200px;
+    @extend %aling;
+    
+}
+
+.img-footer {
+    width: nth($encabezados, 7 );
+    height: nth($encabezados, 7 ) ;
+}
