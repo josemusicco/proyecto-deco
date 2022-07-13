@@ -1,0 +1,107 @@
+@import "_listas.scss";
+@import "_extends.scss";
+@import "_mixins.scss";
+
+.padre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.articulo h1 {
+    text-align: center;
+    width: 100%;
+
+}
+
+.articulo {
+    width: 30rem;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
+    @extend %aling;
+}
+
+.padre .articulo img {
+    text-align: center;
+    @include medidas1(90%,80%);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: nth($encabezados, 8);
+    background-color: nth($colors, 9);
+}
+
+.parrafos-promociones1 {
+    color:nth($colors, 3);
+    background-color: nth($colors, 4);
+    font-size: nth($encabezados, 2);
+    line-height: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    @include medidas1(90%, auto);
+}
+
+.h3-nombres {
+    width: 100%;
+}
+
+.containers-section {
+    margin-top: 10rem;
+}
+
+
+.section-promociones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: nth($encabezados, 5);
+    gap: 1rem;
+}
+
+
+.section-promociones img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: nth($encabezados, 5);
+
+}
+
+
+
+.card-promociones p {
+    background-color: nth($colors, 11);
+    font-size: nth($encabezados, 2);
+    justify-content: center;
+    height: auto;
+    width: 90%;
+}
+
+.card-promociones h3 {
+    color: nth($colors, 10);
+    width: 70%;
+    height: auto;
+}
+
+.botonera {
+    text-decoration: none;
+    display: block;
+    border: 1px;
+    width: 16.8rem;
+    height: auto;
+    text-align: center;
+    padding-top: nth($encabezados, 9);
+    background-color:  nth($colors, 12);
+    color: nth($colors, 8);
+    transition: 2s;
+    font-family: Arial, Helvetica, sans-serif;
+        &:hover{ 
+            background-color: nth($colors, 5);}
+}
+
+
+
+#botonera img {
+    width: 10rem;
+}

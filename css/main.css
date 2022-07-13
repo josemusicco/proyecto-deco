@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  color: coral;
+}
+
+.row p {
+  background-color: rgb(255, 217, 217);
+  color: #0F0E0e;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+h2 {
+  color: #f92672;
+}
+
+.h1-comercio {
+  color: #f92672;
+}
+
+.nuestro-comercio {
+  background-color: navajowhite;
+  color: #f92672;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  width: auto;
+  height: auto;
+  margin: 20px;
+}
+
+.bg-violet {
+  background-color: rgb(238, 188, 247);
+}
+
+#pie, .articulo {
+  text-align: center;
+  align-items: center;
+}
+
+.padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.articulo h1 {
+  text-align: center;
+  width: 100%;
+}
+
+.articulo {
+  width: 30rem;
+  height: auto;
+  margin: 3px;
+  padding: 3px;
+}
+
+.padre .articulo img {
+  text-align: center;
+  width: 90%;
+  margin: 80%;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 30px;
+  background-color: #0F0E0e;
+}
+
+.parrafos-promociones1 {
+  color: rgb(60, 46, 212);
+  background-color: coral;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.h3-nombres {
+  width: 100%;
+}
+
+.containers-section {
+  margin-top: 10rem;
+}
+
+.section-promociones {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  gap: 1rem;
+}
+
+.section-promociones img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-promociones p {
+  background-color: rgba(207, 42, 86, 0.344);
+  font-size: 1rem;
+  justify-content: center;
+  height: auto;
+  width: 90%;
+}
+
+.card-promociones h3 {
+  color: darkblue;
+  width: 70%;
+  height: auto;
+}
+
+.botonera {
+  text-decoration: none;
+  display: block;
+  border: 1px;
+  width: 16.8rem;
+  height: auto;
+  text-align: center;
+  padding-top: 15px;
+  background-color: #9d2882;
+  color: #F5F0F0;
+  transition: 2s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.botonera:hover {
+  background-color: #f92672;
+}
+
+#botonera img {
+  width: 10rem;
+}
+
+#pie, .articulo {
+  text-align: center;
+  align-items: center;
+}
+
+#pie {
+  margin-top: 50px;
+  background-color: blueviolet;
+  width: 300;
+  height: 200px;
+}
+
+.img-footer {
+  width: 50px;
+  height: 50px;
+}
+
+.articulo, #pie {
+  text-align: center;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 700px) {
+  .section-promociones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+    grid-gap: 5px;
+  }
+}
+@media (max-width: 600px) {
+  .section-promociones {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    grid-gap: 5px;
+  }
+  .section-promociones img {
+    width: 80%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .card-promociones p {
+    background-color: rgba(207, 42, 86, 0.344);
+    font-size: 1rem;
+    justify-content: center;
+    height: auto;
+    width: 90%;
+  }
+  .card-promociones h3 {
+    color: darkblue;
+    width: 70%;
+    height: auto;
+  }
+  .card-promociones {
+    margin: 1em auto;
+  }
+  .botonera {
+    width: 100%;
+  }
+}
+.video {
+  height: 800px;
+}
+
+/*# sourceMappingURL=main.css.map */
