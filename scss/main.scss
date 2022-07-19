@@ -16,11 +16,31 @@
     box-sizing: border-box;
 }
 
+// @media (max-width: 700px){
+//     .decohogar {
+//             display: grid;
+//             grid-template-columns: repeat(3, 1fr);
+//             grid-gap: 10px;
+//             padding: nth($encabezados, 3)
+//         }
+
+// }
+// @media (max-width: 700px) {
+//     .decohogar{
+//         display: grid;
+//             grid-template-columns: repeat(2, 1fr);
+//             padding: 10px;
+//             grid-gap: 5px;
+//     }
+    
+// }
+
+
 
 @media (max-width: 700px) {
     .section-promociones {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         padding: 10px;
         grid-gap: 5px;
     }
