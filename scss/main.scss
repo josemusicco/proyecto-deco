@@ -33,10 +33,29 @@
 //             grid-gap: 5px;
 //     }
     
-// }
+// 
+
+//MEDIA DE DECOHOGAR//
+@media (max-width: 700px) {
+.conatainers-decohogar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    padding: nth($encabezados, 3)
+    }
+}
+@media (max-width: 900px) {
+    .conatainers-decohogar {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        padding: nth($encabezados, 3)
+    }
+}
 
 
 
+//MEDIA DE PROMOCIONES//
 @media (max-width: 700px) {
     .section-promociones {
         display: grid;
