@@ -105,7 +105,30 @@
     }
 }
 
-.video {
-    height: 800px;
+.img-local{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.img{
+    width: 60rem;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.h2-form{
+    text-align: center;
 
 }
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
