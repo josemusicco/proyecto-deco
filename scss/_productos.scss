@@ -12,8 +12,13 @@ h1 {
     color: nth($colors, 9);
     font-size:nth($encabezados, 3);
     line-height: 2.5rem;
+    text-align: center;
 }
 
-h2 {
+.h2-productos {
     color:nth($colors, 5);
+    justify-content: center;
+    text-align: center;
+
+    
 }
