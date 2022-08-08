@@ -15,6 +15,7 @@
         width: 500px;
         height: auto;
         text-align: center;
+        margin: auto;
 }
 
 .decohogar p{
@@ -23,12 +24,11 @@
     height: auto;
     background-color: nth($colors, 13);
     color: nth($colors, 9);
+    display: block;
+    margin: auto;
 }
 
-.decohogar img{
-    width: 400px;
-    height: auto;
-}
+
 
 // .decohogar img:hover {
 //     -webkit-transform: rotateY(180deg);
@@ -44,4 +44,11 @@
 
 .decohogar {
     overflow: hidden;
+}
+
+.decohogar-img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin: auto;
 }

@@ -9,18 +9,17 @@
   color: darkblue;
   width: 500px;
   height: auto;
-  text-align: center; }
+  text-align: center;
+  margin: auto; }
 
 .decohogar p {
   text-align: center;
   width: 400px;
   height: auto;
   background-color: rgba(255, 0, 204, 0.18);
-  color: #0F0E0e; }
-
-.decohogar img {
-  width: 400px;
-  height: auto; }
+  color: #0F0E0e;
+  display: block;
+  margin: auto; }
 
 .decohogar img:hover {
   -webkit-transform: scale(1.8);
@@ -28,6 +27,12 @@
 
 .decohogar {
   overflow: hidden; }
+
+.decohogar-img {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: auto; }
 
 h1 {
   text-align: center;
@@ -118,19 +123,26 @@ h2 {
   width: 80%;
   height: 50%;
   object-fit: cover;
-  border-radius: 20px; }
+  border-radius: 20px;
+  display: block;
+  margin: auto; }
 
 .card-promociones p {
   background-color: rgba(207, 42, 86, 0.344);
   font-size: 1rem;
   justify-content: center;
   height: auto;
-  width: 80%; }
+  width: 80%;
+  display: block;
+  margin: auto; }
 
 .card-promociones h3 {
   color: darkblue;
   width: 70%;
-  height: auto; }
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 1rem; }
 
 .botonera {
   text-decoration: none;
@@ -142,7 +154,10 @@ h2 {
   padding-top: 15px;
   background-color: #9d2882;
   color: #F5F0F0;
-  transition: 3s;
+  transition: 1s;
+  display: block;
+  margin: auto;
+  padding: 1rem;
   font-family: Arial, Helvetica, sans-serif; }
   .botonera:hover {
     background-color: #f92672; }
@@ -187,10 +202,10 @@ h2 {
     grid-gap: 10px;
     padding: 2rem; } }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
   .section-promociones {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 10px;
     grid-gap: 5px; } }
 

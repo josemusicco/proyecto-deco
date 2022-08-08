@@ -56,10 +56,10 @@
 
 
 //MEDIA DE PROMOCIONES//
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .section-promociones {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 10px;
         grid-gap: 5px;
     }

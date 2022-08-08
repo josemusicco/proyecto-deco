@@ -78,6 +78,8 @@
     height: 50%;
     object-fit: cover;
     border-radius: nth($encabezados, 5);
+    display: block;
+    margin: auto;
 }
 
 .card-promociones p {
@@ -86,12 +88,18 @@
     justify-content: center;
     height: auto;
     width: 80%;
+    display: block;
+    margin: auto;
+    
 }
 
 .card-promociones h3 {
     color: nth($colors, 10);
     width: 70%;
     height: auto;
+    display: block;
+    margin: auto;
+    padding: 1rem;
 }
 
 // ACA TERMINA PROMOCIONES 2//
@@ -107,13 +115,14 @@
     padding-top: nth($encabezados, 9);
     background-color:  nth($colors, 12);
     color: nth($colors, 8 );
-    transition: 3s;
+    transition: 1s;
+    display: block;
+    margin: auto;
+    padding: 1rem;
     font-family: Arial, Helvetica, sans-serif;
         &:hover{ 
             background-color: nth($colors, 5);}
 }
-
-
 
 #botonera img {
     width: 10rem;
