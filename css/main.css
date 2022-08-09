@@ -1,16 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 .conatainers-decohogar {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
-  padding: 2rem; }
+  padding: 2rem;
+}
 
 .decohogar h3 {
   color: darkblue;
   width: 500px;
   height: auto;
   text-align: center;
-  margin: auto; }
+  margin: auto;
+}
 
 .decohogar p {
   text-align: center;
@@ -19,41 +29,49 @@
   background-color: rgba(255, 0, 204, 0.18);
   color: #0F0E0e;
   display: block;
-  margin: auto; }
+  margin: auto;
+}
 
 .decohogar img:hover {
   -webkit-transform: scale(1.8);
-  transform: scale(1.1); }
+  transform: scale(1.1);
+}
 
 .decohogar {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 .decohogar-img {
   width: 400px;
   height: auto;
   display: block;
-  margin: auto; }
+  margin: auto;
+}
 
 h1 {
   text-align: center;
   padding: 2rem;
   font-size: 2rem;
-  color: coral; }
+  color: coral;
+}
 
 .row p {
   background-color: #ffd9d9;
   color: #0F0E0e;
   font-size: 2rem;
   line-height: 2.5rem;
-  text-align: center; }
+  text-align: center;
+}
 
 .h2-productos {
   color: #f92672;
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+}
 
 .h1-comercio {
-  color: #f92672; }
+  color: #f92672;
+}
 
 .nuestro-comercio {
   background-color: navajowhite;
@@ -62,31 +80,38 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   width: auto;
   height: auto;
-  margin: 20px; }
+  margin: 20px;
+}
 
 .bg-violet {
-  background-color: #eebcf7; }
+  background-color: #eebcf7;
+}
 
-.articulo, #pie {
+.articulo,
+#pie {
   text-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .padre {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+}
 
 .articulo h1 {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 .articulo {
   width: 30rem;
   height: auto;
   margin: 3px;
-  padding: 3px; }
+  padding: 3px;
+}
 
 .padre .articulo img {
   text-align: center;
@@ -95,7 +120,8 @@ h1 {
   padding: 1rem;
   margin: 1rem;
   border-radius: 30px;
-  background-color: #0F0E0e; }
+  background-color: #0F0E0e;
+}
 
 .parrafos-promociones1 {
   color: #3c2ed4;
@@ -105,22 +131,27 @@ h1 {
   text-align: center;
   justify-content: center;
   width: 90%;
-  margin: auto; }
+  margin: auto;
+}
 
 .card-promociones h3 {
-  text-align: center; }
+  text-align: center;
+}
 
 .containers-section h2 {
-  text-align: center; }
+  text-align: center;
+}
 
 .containers-section {
-  margin-top: 10rem; }
+  margin-top: 10rem;
+}
 
 .section-promociones {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 20px;
-  gap: 1rem; }
+  gap: 1rem;
+}
 
 .section-promociones img {
   width: 80%;
@@ -128,7 +159,8 @@ h1 {
   object-fit: cover;
   border-radius: 20px;
   display: block;
-  margin: auto; }
+  margin: auto;
+}
 
 .card-promociones p {
   background-color: rgba(207, 42, 86, 0.344);
@@ -137,7 +169,8 @@ h1 {
   height: auto;
   width: 80%;
   display: block;
-  margin: auto; }
+  margin: auto;
+}
 
 .card-promociones h3 {
   color: darkblue;
@@ -145,7 +178,8 @@ h1 {
   height: auto;
   display: block;
   margin: auto;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 .botonera {
   text-decoration: none;
@@ -161,105 +195,172 @@ h1 {
   display: block;
   margin: auto;
   padding: 1rem;
-  font-family: Arial, Helvetica, sans-serif; }
-  .botonera:hover {
-    background-color: #f92672; }
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.botonera:hover {
+  background-color: #f92672;
+}
 
 #botonera img {
-  width: 10rem; }
+  width: 10rem;
+}
 
-.articulo, #pie {
+.articulo,
+#pie {
   text-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 #pie {
   margin-top: 50px;
   background-color: blueviolet;
   width: 300;
-  height: 200px; }
+  height: 200px;
+}
 
 .img-footer {
   width: 50px;
-  height: 50px; }
+  height: 50px;
+}
 
-.articulo, #pie {
+.articulo,
+#pie {
   text-align: center;
-  align-items: center; }
+  align-items: center;
+}
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 @media (max-width: 700px) {
   .conatainers-decohogar {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
-    padding: 2rem; } }
+    padding: 2rem;
+  }
+}
 
 @media (max-width: 900px) {
   .conatainers-decohogar {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 10px;
-    padding: 2rem; } }
+    padding: 2rem;
+  }
+}
 
 @media (max-width: 750px) {
   .section-promociones {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 10px;
-    grid-gap: 5px; } }
+    grid-gap: 5px;
+  }
+}
 
 @media (max-width: 600px) {
   .section-promociones {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 10px;
-    grid-gap: 5px; }
+    grid-gap: 5px;
+  }
+
   .section-promociones img {
     width: 80%;
     height: 50%;
     object-fit: cover;
-    border-radius: 20px; }
+    border-radius: 20px;
+  }
+
   .card-promociones p {
     background-color: rgba(207, 42, 86, 0.344);
     font-size: 1rem;
     justify-content: center;
     height: auto;
-    width: 90%; }
+    width: 90%;
+  }
+
   .card-promociones h3 {
     color: darkblue;
     width: 70%;
-    height: auto; }
+    height: auto;
+  }
+
   .card-promociones {
-    margin: 1em auto; }
+    margin: 1em auto;
+  }
+
   .botonera {
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 .img-local {
   display: flex;
   justify-content: center;
-  padding: 1rem; }
+  padding: 1rem;
+}
 
 .img {
-  width: 60rem; }
+  width: 60rem;
+}
 
 .video {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .h2-form {
-  text-align: center; }
+  text-align: center;
+}
 
 .form {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5rem; }
+  gap: 0.5rem;
+}
 
 .h2-index {
   color: coral;
   padding: 1rem;
-  text-align: center; }
+  text-align: center;
+}
+
+
+
+.container-404 {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: #ffff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  line-height: 1.7;
+  color: #434343;
+}
+
+.boton-404 {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #3c2ed4;
+  color: #ffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.body-404 {
+  background-color: #3c2ed4;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
